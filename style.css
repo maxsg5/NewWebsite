@@ -6,15 +6,16 @@ h1{
     color: #000;
 }
 Header {
-    background-color: #000000;
+    /* background-color: #000000; */
     padding-bottom: 5%;
     padding-top: 2%;
 }
 
 body {
-    background-color: #000000;
+    /* background-color: #000000; */
     text-align: center;
     color: #fff;
+    background-image: url(background.jpg);
 }
 .custom{
     color: rgb(0, 0, 0);
@@ -29,19 +30,19 @@ p {
 }
 #AboutMe{
     padding-top: 1px;
-    background-color: #000000;
+    /* background-color: #000000; */
     color: #fffafa;
 
 }
 #Resume {
     padding-top: 5%;
     color: #fffafa;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 #Projects{
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.5);
     color: #fffafa;
 
 }
@@ -51,6 +52,7 @@ p {
     border-radius: 25px;
     width: 90%;
     margin: 0 auto;
+    
     
 }
 
@@ -90,15 +92,20 @@ Footer{
           border-style: solid;
           border-color: #ffffff;
           border-radius: 25px;
+          background-color: rgba(0, 0, 0, 0.733);
         }
   .job2 { grid-area: job2;
     border-style: solid;
     border-color: #ffffff;
-    border-radius: 25px; }
+    border-radius: 25px; 
+    background-color: rgba(0, 0, 0, 0.733);
+}
   .job3 { grid-area: job3;
     border-style: solid;
     border-color: #ffffff; 
-    border-radius: 25px; }
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.733);
+}
  
 
 

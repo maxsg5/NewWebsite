@@ -48,7 +48,7 @@ p {
 }
 .project{
     border-style: solid;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 25px;
     width: 90%;
     margin: 0 auto;
@@ -92,6 +92,7 @@ Footer{
           border-style: solid;
           border-color: #ffffff;
           border-radius: 25px;
+          
           background-color: rgba(0, 0, 0, 0.733);
         }
   .job2 { grid-area: job2;
@@ -109,8 +110,12 @@ Footer{
  
 
 
-
+#dropdown{
+    color: #000;
+}
 #demo{
     text-align: left;
 }
+
+#more {display: none;}
 
